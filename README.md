@@ -1,4 +1,7 @@
-# bezirksregionenprofile_2_0
+# Bezirksregionenprofile Pankow
+
+This repo is based on [bezirksregionenprofile-bezirksregionenprofile_2.0
+](https://github.com/technologiestiftung/bezirksregionenprofile_2.0)
 
 All data is loaded from API. API data can be edited in the [bezirksregionenprofile-daten
 ](https://github.com/technologiestiftung/bezirksregionenprofile-daten) repo
@@ -26,7 +29,7 @@ Adjust urls in packagejson
 
 ## Content page data structure
 
-The application is constructed to have an overview page of all pages and a subpage for each 'Bezirk'. As the first prototype is only made for 'Tempelhof-Schöneberg', there is a 'hack' to make Tempelhof-Schöneberg the starting page and exclude the view of the overview of all 'Bezirke'. For this 'hack' the *pages* folder was adapted.
+The application is constructed to have an overview page of all pages and a subpage for each 'Bezirk'. As this is only a prototype for 'Pankow', there is a 'hack' to make Pankow the starting page and exclude the view of the overview of all 'Bezirke'. For this 'hack' the *pages* folder was adapted.
 To go back to the view for all 'Bezirke' put the content of the *pages_full_site* in the *pages* folder.
 
 The 'Bezirk' page:
