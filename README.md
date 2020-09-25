@@ -1,7 +1,7 @@
 # Bezirksregionenprofile Pankow
 
-This repo is based on [bezirksregionenprofile-bezirksregionenprofile_2.0
-](https://github.com/technologiestiftung/bezirksregionenprofile_2.0)
+This repo is based on [bezirksregionenprofile_2_0
+](https://github.com/technologiestiftung/bezirksregionenprofile_2_0)
 
 All data is loaded from API. API data can be edited in the [bezirksregionenprofile-daten
 ](https://github.com/technologiestiftung/bezirksregionenprofile-daten) repo
