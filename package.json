@@ -1,0 +1,43 @@
+{
+  "name": "bezirksregionenprofile_2_0",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Berliner Bezirksregionenprofile, Ralph Schulz",
+  "private": true,
+  "scripts": {
+    "dev": "API_URL=https://bezirksregionenprofile-data-dev.s3.eu-central-1.amazonaws.com/data nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generate:withenvs": "BASE_URL=https://bezirksregionenprofile-ts.netlify.app API_URL=https://bezirksregionenprofile-data-dev.s3.eu-central-1.amazonaws.com/data nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "5.8.0",
+    "@nuxtjs/markdownit": "1.2.7",
+    "@turf/bbox": "6.0.1",
+    "chart.js": "2.9.3",
+    "d3": "5.14.2",
+    "mapbox-gl": "1.5.1",
+    "nuxt": "2.10.2",
+    "papaparse": "5.1.0",
+    "vue-chartjs": "3.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "1.1.2",
+    "@nuxtjs/eslint-module": "1.2.0",
+    "@nuxtjs/proxy": "1.3.3",
+    "@nuxtjs/vuetify": "1.9.0",
+    "@vue/test-utils": "1.0.0-beta.30",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "26.0.1",
+    "eslint": "6.7.2",
+    "eslint-config-prettier": "4.3.0",
+    "eslint-plugin-nuxt": "0.5.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "jest": "26.0.1",
+    "prettier": "1.19.1",
+    "vue-jest": "4.0.0-beta.2"
+  }
+}

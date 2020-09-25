@@ -1,0 +1,31 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+
+/*
+Change font
+@import "~vuetify/src/styles/styles.sass";
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&display=swap");
+$body-font-family: "Maven Pro" !important;
+*/
+
+
+$color-default:  #223A8F !default;
+$color-highlight: #e60032 !default;
+
+
+$color-indGr1: rgb(151,177,21);
+$color-indGr2: rgb(88,88,159);
+$color-indGr3: rgb(244,158,0);
+$color-indGr4: rgb(205,0,85);
+$color-indGr5: rgb(99,171,134);
+$color-indGr6: rgb(0,74,153);
+
+
+$color-phase: #ddd;
+$color-phase1: #fff;
+$color-phase2: #B8E986;
+$color-phase3: #FFE400;
+$color-phase4: #F5A623;
